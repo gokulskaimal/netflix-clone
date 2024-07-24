@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: grey;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./Images/header-img.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+}
+
+/* navbar */
+
+nav img{
+    width: 13%;
+
+
+}
+
+.red-btn{
+    background-color: rgb(229, 9, 20);
+    color: #fff;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 5px 17px;
+}
+.red-btn:hover{
+    background: rgb(193,17,25);
+
+}
+
+/* hero section */
+.hero-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.hero-first-p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.hero-second-p{
+    font-size: 1.25rem;
+
+}
+
+form{
+    width: 60%;
+}
+
+form #floatingInput{
+    color: #fff;
+}
+form .form-control:focus{
+    border-color: #fff;
+    box-shadow: none;
+    border-width: medium;
+}
+form .form-floating>.form-control:focus~label{
+    color: (rgba(255, 255, 255, 0.7));
+}
+form .form-floating>.form-control:focus~label::after{
+    background-color: transparent;
+}
+form .form-floating{
+    width: 50%;
+}
+form #floatingInput{
+    background: transparent;
+}
+form label{
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+.get-satrted-btn{
+    height: 60px;
+    font-size: 1.5rem;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.get-satrted-btn::after{
+    content: "\276F";
+    margin-left: 5px;
+}
+
+/* enjoy section */
+
+.enjoy-section{
+    background-color: black;
+    color: #fff;
+    border-top: 5px solid grey;
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.section-paragraph{
+    font-size: 1.5rem
+    
+}
+
+
+.faq{
+    background-color: black; 
+    border-top: 5px solid grey;   
+}
+
+.faq-text{
+    color: #fff;
+    font-weight: bold;
+}
+.accordion-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.accordion-button svg{
+    text-align: end;
+}
+
+
+
+
+/*footer*/
+.footer-sec{
+    border-top: 5px solid grey;
+    background-color: black;
+    
+}
+
+.footer-sec li{
+    list-style: none;
+    color: gray;
+}
+.footer-sec li a{
+    color: grey;
+}
+.lan-btn{
+    color: black;
+}
+.lan-btn span{
+    margin-right: 8px;
+}
+.india-footer{
+    margin-top: 10px;
+}
